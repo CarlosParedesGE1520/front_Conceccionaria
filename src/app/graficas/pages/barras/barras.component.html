@@ -1,0 +1,18 @@
+<h1>Graficas de barras</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+
+
+        <canvas baseChart class="chart"
+                [data]="barChartData"
+                [options]="barChartOptions"
+               
+                [type]="barChartType"
+              >
+        </canvas>
+
+        <button class="btn btn-primary" mat-button mat-raised-button color="primary" (click)="randomize()">Update</button>    
+    </div>
+</div>
